@@ -37,8 +37,6 @@ Inorder to apply Amazon s3 service, the amazon credentials needs to be placed at
 
 ## To do
 
-* Views arrangement
-* Amazon-s3-related configuration
 * DockerFile aggregation
 
 
