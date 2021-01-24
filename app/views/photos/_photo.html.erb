@@ -1,17 +1,8 @@
 <div>
-  <%
-    require 'aws-sdk-s3'
-    obj = Aws::S3::Object.new(
-      bucket_name: ENV["aws_bucket_name"],
-      key: File.join('assets/images/', photo.file_name),
-      region: ENV["aws_region"])
-  %>
-  <img src="<%= obj.public_url %>">
+  <img src="<%= image_public_url(photo.file_name) %>">
 
   <p>
-    <STRONG>
-      Photo at <%= photo.date_time %>
-    </STRONG>
+    <STRONG>Photo at <%= photo.date_time %></STRONG>
   </p>
 
   <% Comment.where(photo_id: photo.id).each do |comment| %>
