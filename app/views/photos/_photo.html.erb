@@ -1,9 +1,7 @@
 <div>
   <img src="<%= image_public_url(photo.file_name) %>">
 
-  <p>
-    <STRONG>Photo at <%= photo.date_time %></STRONG>
-  </p>
+  <p><STRONG>Photo at <%= photo.date_time %></STRONG></p>
 
   <% Comment.where(photo_id: photo.id).each do |comment| %>
     <%= render 'comments/comment_photo', comment: comment %>

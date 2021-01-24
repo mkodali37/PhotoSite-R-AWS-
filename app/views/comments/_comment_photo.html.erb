@@ -1,10 +1,9 @@
-<% user = User.find(comment.user_id)
-   name = user.first_name + user.last_name %>
 <p>
   <STRONG>
-    <%= link_to name, comment.user_id.to_s %>
+    <%= link_to full_name(comment.user_id), comment.user_id.to_s %>
     commented at
     <%= comment.date_time %>
   </STRONG>
 </p>
+
 <p><%= comment.comment_text %></p>
