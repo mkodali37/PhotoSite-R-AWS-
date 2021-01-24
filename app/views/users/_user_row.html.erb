@@ -1,0 +1,6 @@
+<tr>
+  <td><%= user.id %></td>
+  <% photo_path = 'photos/index/' + user.id.to_s %>
+  <td><%= link_to user.first_name, photo_path %></td>
+  <td><%= link_to user.last_name, photo_path %></td>
+</tr>
