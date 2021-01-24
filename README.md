@@ -1,24 +1,23 @@
-# README
+# Photo Site
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A demonstration of Ruby on Rails photo site based on Amazon EC2 and S3.
 
-Things you may want to cover:
+## Environment
 
-* Ruby version
+* Ruby version 2.7.2
+* Rails 6.1.1
 
-* System dependencies
+## Configuration
 
-* Configuration
+Inorder to apply Amazon s3 service, the amazon credentials needs to be placed at ```~/.aws/credentials```. The needed information are:
+1. aws_access_key_id
+2. aws_secret_access_key
 
-* Database creation
+## To do
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Models Generation
+* Controllers generation
+* Routes setting
+* Views arrangement
+* Amazon-s3-related configuration
+* DockerFile aggregation
