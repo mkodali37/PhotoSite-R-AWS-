@@ -4,8 +4,7 @@ A demonstration of Ruby on Rails photo site based on Amazon EC2 and S3.
 
 ## Environment
 
-* Ruby version 2.7.2
-* Rails 6.1.1
+* Docker 20.10.2
 
 ## Configuration
 
@@ -34,15 +33,6 @@ Inorder to apply Amazon s3 service, the amazon credentials needs to be placed at
 * ```comment_text```: ```string``` The content of a comment.
 * Must belongs to a specific user.
 * Must belongs to a specific photo.
-
-## To do
-
-* Attach aws credentials with docker-compose
-
-
-Attributes
-* ```date_time```: ```date``` The created date of a comment.
-* ```comment_text```: ```string``` The content of a comment.
 
 # Author
 
