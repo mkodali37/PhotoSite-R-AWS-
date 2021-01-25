@@ -54,3 +54,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Amazon S3
 gem 'aws-sdk', '~> 3'
+
+# rake related
+gem 'tzinfo-data'

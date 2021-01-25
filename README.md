@@ -37,7 +37,7 @@ Inorder to apply Amazon s3 service, the amazon credentials needs to be placed at
 
 ## To do
 
-* DockerFile aggregation
+* Attach aws credentials with docker-compose
 
 
 Attributes
